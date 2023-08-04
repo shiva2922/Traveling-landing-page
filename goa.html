@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       *{
+           margin: 0;
+           padding: 0;
+           font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+       } 
+       header{
+           background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)) ,url("https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Z29hfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+           
+           height:100vh;
+           background-size: cover;
+           background-position:center ;
+
+       }
+       ul{
+           list-style-type: none;
+           float:right;
+           margin-top: 25px;
+           margin-right: 50px;
+       }
+       ul li{
+           display: inline-block;
+           padding: 3px;
+       }
+       ul li a{
+           text-decoration: none;
+           padding: 5px;
+           color:white;
+           border: 1px solid transparent;
+           transition:0.5s ease;
+       }
+       ul li a:hover{
+           background-color:white;
+           color:black;
+       }
+       ul li.active a{
+        background-color:white;
+           color:black;
+       }
+       .logo img {
+           margin-top: 20px;
+           margin-left: 50px;
+           float:left;
+           width:100px;
+           height : 80px;
+           border-radius: 50%;
+           border-color: rgb(13, 13, 103);
+           
+       }
+
+
+       .title{
+           position: absolute;
+           top:50%;
+           left:35%;
+           color:white;
+           font-size: 40px;
+
+
+       }
+       .button{
+        position: absolute;
+           top:64%;
+           left:43%;
+
+           
+       }
+       .btn{
+           color:white;
+           border:1px solid white;
+           padding :10px 30px;
+           text-decoration: none;
+       }
+
+       .btn:hover{
+        background-color:white;
+           color:black;
+           transition: 0.5s ease;
+       }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <div class= "main">
+            <div class="logo">
+                <img src="https://dcassetcdn.com/design_img/2396949/32641/32641_12518854_2396949_120f5776_image.jpg">
+
+            </div>
+<ul>
+    <li class="active"><a href="#">Home</li>
+    <li><a href="https://www.google.com/search?q=goa+hotel+servies&rlz=1C1CHBD_enIN973IN973&ei=Y8apYuqmF6ms4-EP2p-f4AE&ved=0ahUKEwiq5Kf7sK_4AhUp1jgGHdrPBxwQ4dUDCA4&uact=5&oq=goa+hotel+servies&gs_lcp=Cgdnd3Mtd2l6EAMyBggAEB4QFjIKCAAQHhAPEAgQDTIMCAAQHhAPEAgQDRAKMgoIABAeEA8QCBANOgcIABBHELADOgQIABANOhQIABDqAhC0AhCKAxC3AxDUAxDlAjoECAAQQzoECC4QQzoKCAAQsQMQgwEQQzoRCC4QgAQQsQMQgwEQxwEQ0QM6CwgAEIAEELEDEIMBOgcILhCxAxBDOgsILhCABBCxAxCDAToHCAAQsQMQQzoLCAAQgAQQsQMQyQM6BQgAEIAEOggIABCxAxCDAToFCAAQkQI6CAgAEIAEELEDOggIABCABBDJAzoECAAQCjoLCC4QgAQQxwEQrwE6BwgAEIAEEApKBAhBGABKBQhAEgExSgQIRhgAUL4EWM1rYKF7aAJwAXgEgAHeAogBuCuSAQYyLTE4LjSYAQCgAQGwAQrIAQjAAQE&sclient=gws-wiz">Servies</li>
+    <li><a href="https://www.google.com/search?q=photes+of+goa&rlz=1C1CHBD_enIN973IN973&oq=photes+of+goa&aqs=chrome..69i57j0i13l5j0i13i457j0i13l3.10336j0j15&sourceid=chrome&ie=UTF-8">Gallery</li>
+    <li><a href="https://www.google.com/search?q=something+about+goa&rlz=1C1CHBD_enIN973IN973&ei=XMepYty8LeCG4-EPrLKOqA8&oq=somthing+about+goa&gs_lcp=Cgdnd3Mtd2l6EAEYADIECAAQDTIGCAAQHhAWMgYIABAeEBYyBggAEB4QFjIGCAAQHhAWMggIABAeEA8QFjIICAAQHhAPEBYyCQgAEB4QyQMQFjIGCAAQHhAWMggIABAeEA8QFjoHCAAQRxCwAzoHCCEQChCgAToECCEQFToICCEQHhAWEB06FAgAEOoCELQCEIoDELcDENQDEOUCOgUIABCRAjoECAAQQzoFCAAQgAQ6EQguEIAEELEDEIMBEMcBENEDOgsIABCABBCxAxCDAToICAAQsQMQgwE6CAgAEIAEELEDOggILhCABBCxAzoFCC4QgAQ6EQguEIAEELEDEIMBEMcBEK8BOggILhCxAxCDAToHCAAQsQMQCjoECC4QCjoECAAQCjoKCAAQsQMQgwEQCjoHCC4Q1AIQCjoHCAAQsQMQQzoKCC4QsQMQ1AIQCkoECEEYAEoECEYYAFCnA1jHYmDwdWgCcAF4BIABtgOIAbY1kgELMC4xLjEwLjEwLjKYAQCgAQGwAQrIAQjAAQE&sclient=gws-wiz">About</li>
+    <li><a href ="https://www.google.com/search?q=goa+hotel+servies+contact+number&rlz=1C1CHBD_enIN973IN973&ei=3MapYo27HtTo4-EP-Ymj8A0&oq=goa+hotel+servies+contact+&gs_lcp=Cgdnd3Mtd2l6EAEYADIHCCEQChCgATIHCCEQChCgAToHCAAQRxCwAzoKCAAQRxCwAxDJAzoGCAAQHhAWOgkIABAeEMkDEBY6CggAEB4QDxAIEA06DAgAEB4QDxAIEA0QCjoFCCEQoAE6CAghEB4QFhAdOgoIIRAeEA8QFhAdOgoIIRAeEBYQChAdOgQIIRAVSgQIQRgASgUIQBIBMUoECEYYAFDZBFi2GGDIJmgBcAF4AIAB5gKIAcUUkgEFMi02LjOYAQCgAQHIAQjAAQE&sclient=gws-wiz">Contact</li>
+</ul>
+        </div>
+        <div class="title">
+            <h1>Welcome to Goa</h1>
+        </div>
+            
+        <div class="button">
+            <a href="https://www.youtube.com/watch?v=jYLXQWVpDYk" class="btn">WATCH VIDEO</a>
+            <a href="https://www.google.com/search?q=goa+article+about+famous+things&rlz=1C1CHBD_enIN973IN973&oq=&aqs=chrome.0.69i59i450l8.460968689j0j15&sourceid=chrome&ie=UTF-8" class="btn">LEARN MORE</a>
+
+        </div>
+    </header>
+
+</body>
+</html>
